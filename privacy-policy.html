@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | VStaff</title>
+<style>
+  :root {
+    --navy: #0e1a4f;
+    --text: #4a5170;
+    --bg: #f5f6fb;
+    --card: #ffffff;
+    --accent: #5b4cf0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  /* Header */
+  header {
+    background: #fff;
+    height: 72px;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 1px 0 rgba(14, 26, 79, .06);
+  }
+  .logo {
+    display: flex; align-items: center; gap: 10px;
+    font-weight: 800; font-size: 20px; color: var(--navy); letter-spacing: .5px;
+  }
+  .logo-img {
+    height: 40px;
+    width: auto;
+    display: block;
+    border-radius: 8px; /* optional: keeps slightly rounded corners */
+  }
+  .menu-btn {
+    background: none; border: 0; cursor: pointer; width: 32px; height: 24px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .menu-btn span { display: block; height: 3px; background: var(--navy); border-radius: 2px; }
+  nav.desktop { display: none; gap: 28px; font-weight: 500; color: var(--navy); }
+  nav.desktop a:hover { color: var(--accent); }
+
+  /* Main card */
+  main { padding: 60px 20px 70px; }
+  .card {
+    max-width: 960px;
+    margin: 0 auto;
+    background: var(--card);
+    border-radius: 24px;
+    padding: 56px 44px 48px;
+    box-shadow: 0 10px 40px rgba(14, 26, 79, .06);
+  }
+  h1 { color: var(--navy); font-size: 44px; line-height: 1.15; letter-spacing: -.5px; }
+  .updated { font-size: 14px; margin: 6px 0 34px; }
+  h2 { color: var(--navy); font-size: 24px; margin: 34px 0 8px; }
+  h3 { color: var(--navy); font-size: 16px; text-transform: uppercase; margin-top: 4px; }
+  p { font-size: 15px; margin-bottom: 10px; }
+  ul { margin: 10px 0 12px 22px; }
+  li { font-size: 15px; color: var(--navy); line-height: 1.7; margin-bottom: 6px; }
+  li b { color: var(--navy); }
+  .contact-line a { color: var(--navy); font-weight: 700; }
+
+  /* Footer */
+  footer { background: var(--navy); color: #fff; padding: 56px 28px 24px; }
+  .footer-grid {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; gap: 36px;
+    grid-template-columns: 1fr;
+  }
+  .brand .logo { color: #fff; }
+  .brand p { color: #fff; font-weight: 700; font-size: 18px; margin-top: 18px; }
+  .col h4 { font-size: 16px; margin-bottom: 12px; }
+  .col a, .col span { display: block; font-size: 15px; color: #c9cff0; margin-bottom: 8px; }
+  .col a:hover { color: #fff; }
+  .copyright {
+    max-width: 1100px; margin: 40px auto 0; padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    font-size: 13px; color: #c9cff0;
+  }
+
+  @media (min-width: 760px) {
+    .footer-grid { grid-template-columns: 1.1fr 3fr; }
+    .links { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 24px; }
+  }
+  @media (min-width: 900px) {
+    .menu-btn { display: none; }
+    nav.desktop { display: flex; }
+  }
+  @media (max-width: 600px) {
+    main { padding: 36px 12px 50px; }
+    .card { padding: 36px 22px; border-radius: 20px; }
+    h1 { font-size: 36px; }
+    .links { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo"><img src="logo.png" alt="VStaff Logo" class="logo-img"></a>
+  <nav class="desktop">
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms &amp; Conditions</a>
+  </nav>
+  <button class="menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+  <article class="card">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: November 16, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>VStaff (“VStaff”, “we”, “us”) operates vstaffcore.com and a technology-driven delivery platform that connects customers with delivery partners. This Privacy Policy explains what personal information we collect, how we use and protect it, and the choices you have. By using our website or services, you agree to this policy.</p>
+
+    <h2>2. Information we collect</h2>
+    <ul>
+      <li><b>Contact details:</b> your name, phone number, email address, and delivery or business address.</li>
+      <li><b>Account and verification details:</b> identity and onboarding documents we may need to confirm eligibility.</li>
+      <li><b>Order and service details:</b> locations, order notes, status updates, and service history.</li>
+      <li><b>Location data:</b> your device location while you use our services, so we can match, route, and track activity.</li>
+      <li><b>Payment details:</b> transaction and payout records. Card or bank credentials are handled by our payment providers.</li>
+      <li><b>Technical data:</b> IP address, browser and device type, pages visited, and cookie data.</li>
+      <li><b>Communications:</b> messages, enquiries, and feedback you send to us.</li>
+    </ul>
+
+    <h2>3. How we use your information</h2>
+    <ul>
+      <li>To provide, operate, and complete the services you request.</li>
+      <li>To create and manage your account and verify your identity where required.</li>
+      <li>To process payments, payouts, and invoices.</li>
+      <li>To send service updates, support replies, and, where permitted, offers you can opt out of.</li>
+      <li>To improve our website, services, and safety, and to prevent fraud and misuse.</li>
+      <li>To comply with legal obligations.</li>
+    </ul>
+
+    <h2>4. Sharing your information</h2>
+    <p>We do not sell your personal information. We share it only with:</p>
+    <ul>
+      <li>Other users or partners, as needed to complete a service.</li>
+      <li>Service providers such as payment gateways, mapping, hosting, analytics, and communication tools, who act on our instructions.</li>
+      <li>Authorities or other parties when required by law, or to protect rights, safety, and property.</li>
+      <li>A successor entity if we are involved in a merger, acquisition, or sale of assets.</li>
+    </ul>
+
+    <h2>5. Cookies and tracking</h2>
+    <p>We use cookies and similar technologies to keep the site working, remember preferences, and understand usage. You can block or delete cookies in your browser settings, though some features may stop working.</p>
+
+    <h2>6. Data retention</h2>
+    <p>We keep personal information only as long as needed for the purposes above, or as required by law, tax, and accounting rules. When it is no longer needed, we delete or anonymise it.</p>
+
+    <h2>7. Data security</h2>
+    <p>We use reasonable technical and organisational safeguards to protect your information. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+
+    <h2>8. Your rights</h2>
+    <p>Subject to applicable Indian law, including the Digital Personal Data Protection Act, 2023, you may request to access, correct, update, or delete your personal information, withdraw consent, and opt out of marketing messages. Contact us using the details below and we will respond within a reasonable time.</p>
+
+    <h2>9. Third-party links</h2>
+    <p>Our site may link to other websites. We are not responsible for their privacy practices, so please review their policies.</p>
+
+    <h2>10. Children’s privacy</h2>
+    <p>Our services are not directed to anyone under 18. We do not knowingly collect information from children. If you believe a child has given us data, contact us and we will remove it.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this policy from time to time. The “Last updated” date shows the latest version. Continued use of our services after changes means you accept them.</p>
+
+    <h2>Contact for Policy Questions</h2>
+    <h3>Location Tracking</h3>
+    <p>Users who enable location services expressly consent to:</p>
+    <ul>
+      <li>Continuous location tracking</li>
+      <li>Background location access</li>
+      <li>Route optimization</li>
+      <li>Attendance verification</li>
+      <li>Fraud prevention</li>
+      <li>Safety monitoring</li>
+      <li>Performance measurement</li>
+    </ul>
+    <p>Location data may continue to be retained after completion of services for operational, legal, and analytical purposes.</p>
+    <p class="contact-line">For privacy, compliance, billing, or terms-related questions, contact <a href="mailto:anandkumarvuruti@gmail.com">anandkumarvuruti@gmail.com</a>.</p>
+  </article>
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div class="brand">
+      <a href="#" class="logo"><img src="logo.png" alt="VStaff Logo" class="logo-img"></a>
+      <p>Built to Earn.</p>
+    </div>
+    <div class="links">
+      <div class="col">
+        <h4>Quick links</h4>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">App</a>
+      </div>
+      <div class="col">
+        <h4>Partners</h4>
+        <a href="#">Join Us</a>
+        <a href="#">Download App</a>
+      </div>
+      <div class="col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+      <div class="col">
+        <h4>Contact Us</h4>
+        <span>+91 9866312341</span>
+      </div>
+      <div class="col">
+        <h4>Email</h4>
+        <a href="mailto:anandkumarvuruti@gmail.com">anandkumarvuruti@gmail.com</a>
+      </div>
+      <div class="col">
+        <h4>Follow us</h4>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© 2026 VStaff. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
